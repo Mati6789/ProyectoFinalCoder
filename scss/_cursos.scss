@@ -1,0 +1,38 @@
+/* Cursos Styles */
+
+/* Section cursos kids */
+
+.banner-cursos{
+  background-image: url(../assets/bannerCursos.webp);
+  background-position: 30% 40%;
+}
+
+.cursos-title {
+  h1,h2{
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+  }
+  h3{
+    font-size: 30px
+  }
+}
+
+.bb-cursos{
+  @extend .bb-h1;
+  width: 4em;
+}
+.cursos-P{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  color: $color-p;
+}
+
+.img-cursos{
+  img{
+    @include tamImagenes;
+    border-radius: 5px 100px 50px;
+    box-shadow: 3px 3px 5px #3e4042;
+  }
+} 
+
+ /* cursos kids finalizado */

@@ -1,0 +1,138 @@
+/* Bg Header */
+.bg-opa{
+  background-color: rgba(0, 0, 0, .3);
+}
+.banner{
+  height: 122px;
+  width: 100%;
+}
+/* Color a nav */
+.nav-link{
+  color: #fff;
+  font-family: 'lato', sans-serif;
+}
+/* Carousel img */
+.h-100vh{
+  height: 100vh;
+}
+
+.carousel-caption{
+  top: 40vh;
+  .carouselText{
+    background-color: rgba(0,0,0,.5);
+    display: inline-block;
+    padding: 5px 50px;
+    border-radius: 20px;
+    border: 2px outset #fff;
+  }
+}
+
+// CAROUSEL MOBILE
+
+.carousel-caption2{
+  position: absolute;
+  top: 40vh;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding: 1em .5em;
+  color: #fff;
+  text-align: center;
+  .carouselText2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(0,0,0,.5);
+    border-radius: 20px;
+    border: 2px outset #fff;
+  }
+}
+
+
+
+
+/* CARDS INDEX */
+
+.seccion-1{
+  // margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.bb-h1{
+  width: 8em;
+  height: .40em;
+  background-color: rgb(128, 0, 0);
+  margin: auto;
+}
+.card-cursos{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border-radius: 20px;
+  width: 25em;
+  margin: 15px;
+  box-shadow: 3px 3px 5px #3e4042;
+  transition: scale 1s;
+  
+  .card-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity .4s;
+
+    .card-title{
+      color: rgb(128, 0, 0);
+      font-family: 'Alkalami', serif;
+      font-size: 30px;
+      font-weight: 700;
+    }
+
+    .card-text{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-stretch: condensed;
+    }
+  }
+
+    img{
+      margin-top: 10px;
+      border-radius: 20px;
+      width: 100%;
+      height: 300px;
+      
+    }
+    
+    &:hover{
+      z-index: 50;
+      .card-info{
+        opacity: 1;
+      }
+      scale: 1.1;
+    } 
+    
+
+    &:hover img{
+      filter:brightness(60%);
+    }
+}
+
+
+
+
+.btn-color{
+  background-color: #3352a8;
+  color: aliceblue;
+  transition: all .5s;
+  &:hover{
+  background-color: #b7dbf7;
+  transform:scale(.9);
+  color: #3352a8;
+  border-color: #3352a8;
+  }
+}
+
+/* Contacto styles  */
+

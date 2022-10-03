@@ -1,0 +1,78 @@
+/* Seccion CONTACTO */
+
+#fondo-contacto{
+  background-image: url(../assets/bannerCursos.webp);
+  background-size: cover;
+}
+
+
+.container-contacto{
+  margin-top: 50px;
+  margin-bottom: 50px; 
+  .contacto{
+    @extend .contacto-index;
+    box-shadow: -5px 5px 8px #000;
+    h2{
+      font-size: 1.2rem;
+      color: #fff
+      }
+    }
+  .text-container textarea{
+    width: 100%;
+    }
+
+}
+
+.subtitle-contacto{
+  width: 80%;
+  margin-left: 4em;
+}
+
+.submit-btn{
+  margin-left: 1em;
+}
+
+.iframe-container2 iframe{
+border-radius: 0 150px 50px 0;
+box-shadow: 5px 5px 8px #000;
+}
+// CONTACTO INDEX
+
+.contacto-index{
+  background-image: url(../assets/bannerContactIndex.jpg);
+  background-position: 50% 40%;
+  height: 100%;
+  padding: 20px;
+  border-radius: 50px 0 0 150px;
+  .gradient-text{
+    background-image: linear-gradient(90deg, #0237fc, #ff0000);
+    background-repeat: repeat;
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  h2{
+    font-size: 1.2rem;
+    color: #fff
+  }
+
+  .text-container textarea{
+    width: 100%;
+  }
+}
+
+.iframe-container iframe{
+  border-radius: 0 150px 50px 0;
+}
+
+.bb-contact{
+  @extend .bb-h1;
+  margin: 10px auto 20px auto;
+}
+
+.container-contact-us{
+  border-radius: 50px 150px 50px 150px;
+  box-shadow: 10px 10px 8px #333;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
